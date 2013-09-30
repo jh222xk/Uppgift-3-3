@@ -1,1 +1,40 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container {
+    width: 600px;
+    margin: auto;
+    border: 1px solid #bbb;
+}
+ 
+#topbar {
+    background: #51473D;
+    padding: 3px;
+    text-align: right;
+}
+
+#menu {
+    background: url("pics/coffey.jpg");
+    height: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+#content {
+    background: #EAE7D2;
+    margin-top: 10px;
+}
+ 
+#maincontent {
+    float: left;
+    width: 350px;
+}
+ 
+#subcontent {
+    float: right;
+    width: 200px;
+    border-left: 1px dotted #bbb;
+}
+ 
+#bottomcontent {
+    clear: both;
+}
