@@ -14,6 +14,8 @@ html, body {
     background: #51473D;
     padding: 3px;
     text-align: right;
+    font: italic 10px "Verdana";
+    color: #EAE7D2;
 }
 
 #menu {
