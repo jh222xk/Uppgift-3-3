@@ -93,4 +93,6 @@ html, body {
  
 #bottomcontent {
     clear: both;
+    font: italic 10px "Verdana";
+    padding: 10px;
 }
