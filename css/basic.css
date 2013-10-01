@@ -2,6 +2,7 @@
 
 html, body {
     font: 12px "Verdana", sans-serif;
+    color: #797066;
 }
 
 #container {
@@ -69,6 +70,17 @@ html, body {
 #maincontent {
     float: left;
     width: 350px;
+    margin-left: 10px;
+}
+
+#maincontent h1 {
+    font: normal 30px "Times New Roman";
+    color: #797066;
+}
+
+#maincontent img {
+    float: left;
+    margin-right: 10px;
 }
  
 #subcontent {
