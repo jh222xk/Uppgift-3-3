@@ -71,8 +71,9 @@ html, body {
  
 #maincontent {
     float: left;
-    width: 350px;
+    width: 340px;
     margin-left: 10px;
+    line-height: 20px;
 }
 
 #maincontent h1 {
@@ -82,13 +83,41 @@ html, body {
 
 #maincontent img {
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
 }
  
 #subcontent {
     float: right;
-    width: 200px;
-    border-left: 1px dotted #bbb;
+    width: 220px;
+    border-left: 1px dashed #bbb;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 20px;
+}
+
+#subcontent h1 {
+    font: normal 16px "Times New Roman";
+    color: #51473d;
+}
+
+#subcontent h2 {
+    font: normal 14px "Times New Roman";
+    color: #51473d;
+}
+
+#subcontent ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#subcontent ul a {
+    color: #51473d;
+    line-height: 20px;
+}
+
+#subcontent p {
+    font-size: 9px; 
+    line-height: 20px;
 }
  
 #bottomcontent {
