@@ -8,7 +8,7 @@ html, body {
 #container {
     width: 600px;
     margin: auto;
-    border: 1px solid #bbb;
+    border: 1px solid #cecab9;
 }
  
 #topbar {
@@ -36,6 +36,7 @@ html, body {
     list-style-type: none;
     padding: 10px;
     margin-top: 180px;
+    border-bottom: 1px solid #FFF;
 }
  
 #menu ul li {
@@ -56,6 +57,7 @@ html, body {
 #menu ul .active a {
     background: #EAE7D2;
     color: #797066;
+    padding-bottom: 12px;
 }
  
 #menu a:hover {
